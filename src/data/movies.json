@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "title": "Quantum Horizon",
+    "genre": "Sci-Fi",
+    "duration": 142,
+    "rating": 8.7,
+    "description": "In a world where time is currency, a young scientist discovers the secret to manipulating the fabric of reality. As powerful corporations hunt her down, she must decide whether to save herself or save humanity.",
+    "cast": ["Emma Stone", "Oscar Isaac", "Chiwetel Ejiofor"],
+    "director": "Denis Villeneuve",
+    "language": "English",
+    "releaseDate": "2024-03-15",
+    "posterUrl": "/src/assets/movie-posters/quantum-horizon.jpg"
+  },
+  {
+    "id": "2",
+    "title": "The Last Symphony",
+    "genre": "Drama",
+    "duration": 128,
+    "rating": 9.1,
+    "description": "A renowned composer loses his hearing and embarks on a final journey to complete his masterpiece. A touching story about art, legacy, and the power of human connection.",
+    "cast": ["Benedict Cumberbatch", "Viola Davis", "Mahershala Ali"],
+    "director": "Damien Chazelle",
+    "language": "English",
+    "releaseDate": "2024-02-28",
+    "posterUrl": "/src/assets/movie-posters/last-symphony.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Shadow Protocol",
+    "genre": "Action",
+    "duration": 135,
+    "rating": 8.3,
+    "description": "When a secret government program is exposed, a rogue agent must race against time to prevent a global catastrophe. Non-stop action and heart-pounding suspense.",
+    "cast": ["Tom Hardy", "Charlize Theron", "Idris Elba"],
+    "director": "Christopher McQuarrie",
+    "language": "English",
+    "releaseDate": "2024-04-05",
+    "posterUrl": "/src/assets/movie-posters/shadow-protocol.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Midnight in Paris",
+    "genre": "Romance",
+    "duration": 118,
+    "rating": 8.9,
+    "description": "Two strangers meet on a rainy night in Paris and spend one magical evening exploring the city. A beautiful tale of love, chance, and the moments that change our lives forever.",
+    "cast": ["Timothée Chalamet", "Zendaya", "Marion Cotillard"],
+    "director": "Richard Linklater",
+    "language": "English/French",
+    "releaseDate": "2024-01-20",
+    "posterUrl": "/src/assets/movie-posters/midnight-paris.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Echoes of Laughter",
+    "genre": "Comedy",
+    "duration": 105,
+    "rating": 7.8,
+    "description": "A washed-up comedian gets one last chance at redemption when a viral video makes him an overnight sensation. A hilarious journey through the ups and downs of fame.",
+    "cast": ["Ryan Reynolds", "Awkwafina", "Bill Hader"],
+    "director": "Taika Waititi",
+    "language": "English",
+    "releaseDate": "2024-03-01",
+    "posterUrl": "/src/assets/movie-posters/echoes-laughter.jpg"
+  },
+  {
+    "id": "6",
+    "title": "The Crimson Vault",
+    "genre": "Thriller",
+    "duration": 140,
+    "rating": 8.5,
+    "description": "A master thief is forced out of retirement for one last heist when his family is threatened. But nothing is as it seems in this twisting tale of deception and revenge.",
+    "cast": ["Jake Gyllenhaal", "Ana de Armas", "Michael Fassbender"],
+    "director": "David Fincher",
+    "language": "English",
+    "releaseDate": "2024-04-12",
+    "posterUrl": "/src/assets/movie-posters/crimson-vault.jpg"
+  }
+]

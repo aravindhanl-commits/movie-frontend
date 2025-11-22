@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Cinema-themed dark design system */
+    --background: 220 15% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 13% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 13% 10%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Burgundy/Cinema Red Primary */
+    --primary: 0 65% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Dark secondary */
+    --secondary: 220 12% 18%;
+    --secondary-foreground: 0 0% 98%;
+
+    /* Muted dark tones */
+    --muted: 220 10% 20%;
+    --muted-foreground: 220 8% 60%;
+
+    /* Gold accent for premium features */
+    --accent: 45 90% 55%;
+    --accent-foreground: 220 15% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 13% 20%;
+    --input: 220 13% 18%;
+    --ring: 0 65% 45%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(0 65% 45%), hsl(0 75% 35%));
+    --gradient-dark: linear-gradient(180deg, hsl(220 15% 8%), hsl(220 15% 5%));
+    --gradient-card: linear-gradient(135deg, hsl(220 13% 12%), hsl(220 13% 10%));
+    
+    /* Shadows */
+    --shadow-lg: 0 20px 40px -10px hsl(0 0% 0% / 0.5);
+    --shadow-glow: 0 0 30px hsl(0 65% 45% / 0.3);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

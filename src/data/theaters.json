@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "CineMax Grand",
+    "location": "Downtown Plaza, 5th Avenue",
+    "screens": 8,
+    "facilities": ["IMAX", "Dolby Atmos", "4K Projection", "Recliner Seats"],
+    "seatingLayout": {
+      "rows": 10,
+      "seatsPerRow": 16,
+      "aisles": [8]
+    }
+  },
+  {
+    "id": "2",
+    "name": "Starlight Cinema",
+    "location": "Westside Mall, Park Street",
+    "screens": 6,
+    "facilities": ["3D", "Premium Lounge", "Gourmet Snacks", "Reserved Seating"],
+    "seatingLayout": {
+      "rows": 12,
+      "seatsPerRow": 14,
+      "aisles": [7]
+    }
+  },
+  {
+    "id": "3",
+    "name": "Royal Theatre",
+    "location": "Heritage District, Main Road",
+    "screens": 4,
+    "facilities": ["Classic Experience", "Vintage Ambiance", "Premium Sound"],
+    "seatingLayout": {
+      "rows": 8,
+      "seatsPerRow": 12,
+      "aisles": [6]
+    }
+  }
+]

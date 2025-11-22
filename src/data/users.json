@@ -1,0 +1,42 @@
+[
+  {
+    "id": "u1",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "memberSince": "2023-01-15",
+    "bookings": [
+      {
+        "bookingId": "BK001",
+        "movieTitle": "Quantum Horizon",
+        "theaterName": "CineMax Grand",
+        "showDate": "2024-03-25",
+        "showTime": "6:00 PM",
+        "seats": ["A5", "A6"],
+        "totalAmount": 33.98,
+        "bookingDate": "2024-03-20",
+        "status": "completed"
+      },
+      {
+        "bookingId": "BK002",
+        "movieTitle": "The Last Symphony",
+        "theaterName": "Starlight Cinema",
+        "showDate": "2024-04-10",
+        "showTime": "7:00 PM",
+        "seats": ["C8"],
+        "totalAmount": 16.99,
+        "bookingDate": "2024-04-05",
+        "status": "completed"
+      }
+    ]
+  },
+  {
+    "id": "admin",
+    "name": "Admin User",
+    "email": "admin@cinemabook.com",
+    "phone": "+1 (555) 999-0000",
+    "memberSince": "2023-01-01",
+    "role": "admin",
+    "bookings": []
+  }
+]

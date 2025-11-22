@@ -1,0 +1,122 @@
+[
+  {
+    "id": "s1",
+    "movieId": "1",
+    "theaterId": "1",
+    "showDate": "2024-04-20",
+    "showTime": "10:30 AM",
+    "price": 12.99,
+    "availableSeats": 145,
+    "screenNumber": 3
+  },
+  {
+    "id": "s2",
+    "movieId": "1",
+    "theaterId": "1",
+    "showDate": "2024-04-20",
+    "showTime": "2:15 PM",
+    "price": 14.99,
+    "availableSeats": 132,
+    "screenNumber": 3
+  },
+  {
+    "id": "s3",
+    "movieId": "1",
+    "theaterId": "1",
+    "showDate": "2024-04-20",
+    "showTime": "6:00 PM",
+    "price": 16.99,
+    "availableSeats": 98,
+    "screenNumber": 3
+  },
+  {
+    "id": "s4",
+    "movieId": "1",
+    "theaterId": "2",
+    "showDate": "2024-04-20",
+    "showTime": "11:00 AM",
+    "price": 11.99,
+    "availableSeats": 156,
+    "screenNumber": 2
+  },
+  {
+    "id": "s5",
+    "movieId": "1",
+    "theaterId": "2",
+    "showDate": "2024-04-20",
+    "showTime": "4:30 PM",
+    "price": 13.99,
+    "availableSeats": 143,
+    "screenNumber": 2
+  },
+  {
+    "id": "s6",
+    "movieId": "2",
+    "theaterId": "1",
+    "showDate": "2024-04-20",
+    "showTime": "1:00 PM",
+    "price": 14.99,
+    "availableSeats": 128,
+    "screenNumber": 5
+  },
+  {
+    "id": "s7",
+    "movieId": "2",
+    "theaterId": "2",
+    "showDate": "2024-04-20",
+    "showTime": "7:00 PM",
+    "price": 16.99,
+    "availableSeats": 87,
+    "screenNumber": 1
+  },
+  {
+    "id": "s8",
+    "movieId": "3",
+    "theaterId": "1",
+    "showDate": "2024-04-20",
+    "showTime": "3:30 PM",
+    "price": 15.99,
+    "availableSeats": 112,
+    "screenNumber": 1
+  },
+  {
+    "id": "s9",
+    "movieId": "3",
+    "theaterId": "3",
+    "showDate": "2024-04-20",
+    "showTime": "8:00 PM",
+    "price": 14.99,
+    "availableSeats": 76,
+    "screenNumber": 2
+  },
+  {
+    "id": "s10",
+    "movieId": "4",
+    "theaterId": "2",
+    "showDate": "2024-04-20",
+    "showTime": "5:00 PM",
+    "price": 13.99,
+    "availableSeats": 134,
+    "screenNumber": 3
+  },
+  {
+    "id": "s11",
+    "movieId": "5",
+    "theaterId": "1",
+    "showDate": "2024-04-20",
+    "showTime": "12:00 PM",
+    "price": 12.99,
+    "availableSeats": 152,
+    "screenNumber": 7
+  },
+  {
+    "id": "s12",
+    "movieId": "6",
+    "theaterId": "3",
+    "showDate": "2024-04-20",
+    "showTime": "9:00 PM",
+    "price": 16.99,
+    "availableSeats": 45,
+    "screenNumber": 1
+  }
+]
