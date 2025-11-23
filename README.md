@@ -1,73 +1,146 @@
-# Welcome to your Lovable project
+🎬 Movie Ticket Booking System – Frontend (React + Vite)
 
-## Project info
+This is the frontend application for the Movie Ticket Booking System. Built using React, Vite, Axios, and TailwindCSS, it provides a smooth and user‑friendly interface for browsing movies, selecting showtimes, choosing seats, and booking tickets.
 
-**URL**: https://lovable.dev/projects/39534a0f-851e-4565-b35b-239bc0a41263
+🚀 Live Frontend URL
 
-## How can I edit this code?
+Live App: https://movie-frontend-tawny-theta.vercel.app/
 
-There are several ways of editing your application.
+Backend API Used:
+https://movie-backend-production-799d.up.railway.app/api
 
-**Use Lovable**
+🏗️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/39534a0f-851e-4565-b35b-239bc0a41263) and start prompting.
+React + Vite
 
-Changes made via Lovable will be committed automatically to this repo.
+Axios (API calls)
 
-**Use your preferred IDE**
+React Router DOM (routing)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Tailwind CSS (UI styling)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+JWT Authentication handling
 
-Follow these steps:
+Vercel Deployment
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+✨ Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+👤 User Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+Login / Register using JWT
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Browse list of movies
+
+View movie details & showtimes
+
+Select date, time, and theater
+
+Choose seats (live availability)
+
+Book tickets
+
+View booking confirmation
+
+View booking history
+
+🛠 Admin Features (If UI implemented)
+
+Add / update / delete movies
+
+Manage shows & theaters
+
+📁 Folder Structure
+
+src/
+ ├── components/        # Reusable UI components
+ ├── pages/             # Page screens (Home, Login, Booking, etc.)
+ ├── services/          # API services using Axios
+ ├── hooks/             # Custom hooks
+ ├── context/           # Auth context (if implemented)
+ ├── App.jsx            # Root component
+ └── main.jsx           # Entry point
+
+⚙️ Environment Setup
+
+1️⃣ Clone the repository
+
+git clone <your-frontend-repo-url>
+cd frontend
+
+2️⃣ Install dependencies
+
+npm install
+
+3️⃣ Create .env file
+
+Create a file named .env in the root directory:
+
+VITE_API_BASE_URL=https://movie-backend-production-799d.up.railway.app/api
+
+4️⃣ Start development server
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+The app runs on:
+👉 http://localhost:5173
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🔗 API Integration
 
-**Use GitHub Codespaces**
+API communication is done through Axios using:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+VITE_API_BASE_URL
 
-## What technologies are used for this project?
+Example service:
 
-This project is built with:
+axios.get(`${import.meta.env.VITE_API_BASE_URL}/movies`)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🧩 Available Pages
 
-## How can I deploy this project?
+Login / Signup
 
-Simply open [Lovable](https://lovable.dev/projects/39534a0f-851e-4565-b35b-239bc0a41263) and click on Share -> Publish.
+Home (Movie List)
 
-## Can I connect a custom domain to my Lovable project?
+Movie Details
 
-Yes, you can!
+Showtime Selection
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Seat Selection
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Booking Confirmation
+
+User Booking History
+
+🧪 Testing Instructions
+
+You can test using:
+
+Live deployment
+
+Local backend / deployed backend
+
+Use browser developer tools to verify network calls.
+
+🚀 Deployment (Vercel)
+
+Push your code to GitHub
+
+Go to vercel.com → Add New Project
+
+Select your GitHub repo
+
+Add the environment variable:
+
+VITE_API_BASE_URL
+
+Click Deploy
+
+Deployment is instant.
+
+📝 Submission Requirements
+
+GitHub repo containing full frontend code
+
+Frontend hosted on Vercel
+
+Working integration with backend
+
